@@ -26,18 +26,18 @@ These values are generated from `results.json`, not estimated or copied. Rerun t
 
 | Measure | Local result |
 | --- | ---: |
-|  / calibration rows | 750 |
-|  / models / forest / brier | 0.157574 |
-|  / models / forest / ece 10 bins | 0.088319 |
-|  / models / forest / log loss | 0.488066 |
-|  / models / forest / roc auc | 0.832561 |
-|  / models / sigmoid / brier | 0.146514 |
-|  / models / sigmoid / ece 10 bins | 0.029005 |
-|  / models / sigmoid / log loss | 0.459378 |
-|  / models / sigmoid / roc auc | 0.832561 |
-|  / seed | 42 |
-|  / test rows | 750 |
-|  / train rows | 1500 |
+| Calibration rows | 750 |
+| Forest: brier | 0.157574 |
+| Forest: ECE 10 bins | 0.088319 |
+| Forest: log loss | 0.488066 |
+| Forest: ROC AUC | 0.832561 |
+| Sigmoid: brier | 0.146514 |
+| Sigmoid: ECE 10 bins | 0.029005 |
+| Sigmoid: log loss | 0.459378 |
+| Sigmoid: ROC AUC | 0.832561 |
+| Seed | 42 |
+| Test rows | 750 |
+| Train rows | 1500 |
 
 `verification.txt` records the local test run. The included GitHub Actions workflow is a reproducible check, not a claim that remote CI has already passed.
 
