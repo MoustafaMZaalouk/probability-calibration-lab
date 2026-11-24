@@ -1,5 +1,9 @@
 # Probability Calibration Lab
 
+[![CI](https://github.com/MoustafaMZaalouk/probability-calibration-lab/workflows/Reproducible%20project%20checks/badge.svg)](https://github.com/MoustafaMZaalouk/probability-calibration-lab/blob/main/.github/workflows/test.yml)
+
+*Live workflow status, not a production-readiness or model-quality rating.*
+
 Compare an uncalibrated random forest with sigmoid calibration using a separate chronological-free synthetic calibration split.
 
 A small educational project prepared with AI assistance for Moustafa Zaalouk's portfolio. This is new demonstration code, not a claim about past employment, research, clients or production deployment. It does not reuse another person's project under a different name.
